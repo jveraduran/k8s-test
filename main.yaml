@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: <+input>
+        image: pkg.harness.io/ucbjyokwry69wqkdogpexg/harness-demo/hardening-reader-1-nodejs@sha256:9db4b1e9955fe69951ad16a9ac0cabe83290b63fe57b867f05b3c0ed53151f5e
         ports:
         - containerPort: 80
           name: http
